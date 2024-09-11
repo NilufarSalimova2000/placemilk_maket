@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="pt-[15px] pb-[35px]">
+        <div class="container">
+            <div class="flex gap-[522px] mb-[10px]">
+                <div class="flex gap-[21px] ml-[310px]">
+                    <select class="outline-none bg-transparent font-light text-[12px] text-[#000]" name="select_1" id="select">
+                        <option value="Покупателям">Покупателям</option>
+                    </select>
+                    <select class="outline-none bg-transparent font-light text-[12px] text-[#000]" name="select_2" id="select2">
+                        <option value="Поставщикам">Поставщикам</option>
+                    </select>
+                    <p class="font-light text-[12px] text-[#000]">Частые вопросы</p>
+                </div>
+                <div class="flex gap-[5px]">
+                    <img class="pr-[5px]" style="border-right: 0.5px solid #000" src="./img/header_flag.svg" alt="icon">
+                    <p class="font-light text-[12px] text-[#000] pr-[5px]" style="border-right: 0.5px solid #000">Русский</p>
+                    <select class="outline-none bg-transparent font-light text-[12px] text-[#000]" name="select_3" id="select3">
+                        <option value="₽">₽</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex justify-between items-center">
+                <div class="flex gap-[31px] items-center">
+                    <button class="w-[77px] h-[77px] bg-gradient-to-r from-purple-500 to-pink-500 py-[23px] px-[23px]">
+                        <img src="./img/header_menu.svg" alt="icon">
+                    </button>
+                    <a href="#">
+                        <img src="./img/header_logo.svg" alt="logo">
+                    </a>
+                    <div class="w-[624px] border-[#A056A4] border border-[2px] py-[4px] pl-[5px] pr-[23px] flex justify-between">
+                        <select class="w-[96px] h-[38px] bg-[#F7EDF2] font-normal text-[14px] outline-none" name="select_4" id="select4">
+                            <option value="Везде">Везде</option>
+                        </select>
+                        <input class="outline-none border-none w-[400px]" type="text">
+                        <img src="./img/header_search.svg" alt="icon">
+                    </div>
+                </div>
+                <div class="flex gap-[50px]">
+                    <div class="flex flex-col items-center">
+                        <img class="w-[26px] h-[26px]" src="./img/header_user.svg" alt="icon">
+                        <a class="font-normal text-[14px] text-[#000] block" href="#">Войти</a>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img class="w-[26px] h-[26px]" src="./img/header_like.svg" alt="icon">
+                        <a class="font-normal text-[14px] text-[#000] block text-center" href="#">Избранное</a>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img class="w-[26px] h-[26px]" src="./img/header_shop-cart.svg" alt="icon">
+                        <a class="font-normal text-[14px] text-[#000]" href="#">Корзина</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pb-[28px]">
+            <div class="container">
+                <div class="flex justify-between">
+                    <div class="banner"></div>
+                    <div>
+                        <img class="mb-[24px]" src="./img/hero_img1.png" alt="imag">
+                        <img src="./img/hero_img2.png" alt="imag">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#F7F7F7]">
+            <div class="container">
+                <h2 class="font-normal text-[28px] text-[#000] mb-[21px]">Успей купить</h2>
+                <ul class="discount_products_list flex flex-wrap gap-[20px] justify-between mb-[19px]">
+                    <!-- <li class="w-[182px] rounded-[4px] shadow-lg shadow-black/12 px-[11px] py-[12px]">
+                        <img class="mb-[20px]" src="" alt="">
+                        <div class="flex gap-[17px] items-center mb-[8px]">
+                            <p class="font-medium text-[14px] text-[#ff4343]">1 999 ₽</p>
+                            <p class="font-normal text-[10px] text-[#999999] line-through">2 499 ₽</p>
+                        </div>
+                        <div class="w-[140px]">
+                            <p class="font-light text-[12px] text-[#000] leading-[124%]">Чехол для iphone 12 с дизайнерским принтом Super Shape 03</p>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="w-185px flex justify-end">
+                    <a class="font-medium text-[14px] text-[#000] border-[2px] border py-[14px] px-[55px] block  border-[#A056A4]" href="#">Все товары</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-[19px] bg-[#F7F7F7]">
+            <div class="container">
+                <h2 class="font-normal text-[28px] text-[#000] mb-[21px]">Новинки</h2>
+                <ul class="new_products_list flex flex-wrap gap-[20px] justify-between mb-[19px]">
+                    <!-- <li class="w-[182px] rounded-[4px] shadow-lg shadow-black/12 px-[11px] py-[12px]">
+                        <img class="mb-[20px]" src="" alt="">
+                            <p class="font-medium text-[16px] text-[#000] mb-[8px]">1 999 ₽</p>
+                        <div class="w-[140px]">
+                            <p class="font-light text-[12px] text-[#000] leading-[124%]">Чехол для iphone 12 с дизайнерским принтом Super Shape 03</p>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="w-185px flex justify-end">
+                    <a class="font-medium text-[14px] text-[#000] border-[2px] border py-[14px] px-[55px] block  border-[#A056A4]" href="#">Все товары</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-[19px] bg-[#F7F7F7]">
+            <div class="container">
+                <h2 class="font-normal text-[28px] text-[#000] mb-[21px]">Рекомендуемые для вас товары
+                </h2>
+                <ul class="rec_products_list flex flex-wrap gap-[20px] justify-between mb-[19px]">
+                </ul>
+                <div class="w-185px flex justify-end">
+                    <a class="font-medium text-[14px] text-[#000] border-[2px] border py-[14px] px-[55px] block  border-[#A056A4]" href="#">Все товары</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
